@@ -14,6 +14,9 @@
 		9FFEA6082B169809003C6420 /* JSONRESTful.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9FFEA6062B169809003C6420 /* JSONRESTful.xcdatamodeld */; };
 		9FFEA60A2B16980B003C6420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FFEA6092B16980B003C6420 /* Assets.xcassets */; };
 		9FFEA60D2B16980B003C6420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFEA60B2B16980B003C6420 /* LaunchScreen.storyboard */; };
+		9FFEA6152B169BB9003C6420 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFEA6142B169BB9003C6420 /* Users.swift */; };
+		9FFEA6172B16A776003C6420 /* viewControllerBuscar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFEA6162B16A776003C6420 /* viewControllerBuscar.swift */; };
+		9FFEA6192B16A7B2003C6420 /* Peliculas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFEA6182B16A7B2003C6420 /* Peliculas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		9FFEA6092B16980B003C6420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FFEA60C2B16980B003C6420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FFEA60E2B16980B003C6420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FFEA6142B169BB9003C6420 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		9FFEA6162B16A776003C6420 /* viewControllerBuscar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewControllerBuscar.swift; sourceTree = "<group>"; };
+		9FFEA6182B16A7B2003C6420 /* Peliculas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peliculas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 				9FFEA5FF2B169809003C6420 /* SceneDelegate.swift */,
 				9FFEA6012B169809003C6420 /* ViewController.swift */,
 				9FFEA6032B169809003C6420 /* Main.storyboard */,
+				9FFEA6182B16A7B2003C6420 /* Peliculas.swift */,
+				9FFEA6162B16A776003C6420 /* viewControllerBuscar.swift */,
+				9FFEA6142B169BB9003C6420 /* Users.swift */,
 				9FFEA6092B16980B003C6420 /* Assets.xcassets */,
 				9FFEA60B2B16980B003C6420 /* LaunchScreen.storyboard */,
 				9FFEA60E2B16980B003C6420 /* Info.plist */,
@@ -143,8 +152,11 @@
 			files = (
 				9FFEA6022B169809003C6420 /* ViewController.swift in Sources */,
 				9FFEA5FE2B169809003C6420 /* AppDelegate.swift in Sources */,
+				9FFEA6172B16A776003C6420 /* viewControllerBuscar.swift in Sources */,
+				9FFEA6152B169BB9003C6420 /* Users.swift in Sources */,
 				9FFEA6002B169809003C6420 /* SceneDelegate.swift in Sources */,
 				9FFEA6082B169809003C6420 /* JSONRESTful.xcdatamodeld in Sources */,
+				9FFEA6192B16A7B2003C6420 /* Peliculas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +232,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
