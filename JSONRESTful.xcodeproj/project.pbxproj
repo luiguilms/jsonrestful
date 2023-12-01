@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F48AFD32B1A403600B7582F /* viewControllerAgregar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F48AFD22B1A403600B7582F /* viewControllerAgregar.swift */; };
 		9FFEA5FE2B169809003C6420 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFEA5FD2B169809003C6420 /* AppDelegate.swift */; };
 		9FFEA6002B169809003C6420 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFEA5FF2B169809003C6420 /* SceneDelegate.swift */; };
 		9FFEA6022B169809003C6420 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFEA6012B169809003C6420 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F48AFD22B1A403600B7582F /* viewControllerAgregar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewControllerAgregar.swift; sourceTree = "<group>"; };
 		9FFEA5FA2B169809003C6420 /* JSONRESTful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONRESTful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FFEA5FD2B169809003C6420 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FFEA5FF2B169809003C6420 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				9FFEA5FD2B169809003C6420 /* AppDelegate.swift */,
+				9F48AFD22B1A403600B7582F /* viewControllerAgregar.swift */,
 				9FFEA5FF2B169809003C6420 /* SceneDelegate.swift */,
 				9FFEA6012B169809003C6420 /* ViewController.swift */,
 				9FFEA6032B169809003C6420 /* Main.storyboard */,
@@ -156,6 +159,7 @@
 				9FFEA6152B169BB9003C6420 /* Users.swift in Sources */,
 				9FFEA6002B169809003C6420 /* SceneDelegate.swift in Sources */,
 				9FFEA6082B169809003C6420 /* JSONRESTful.xcdatamodeld in Sources */,
+				9F48AFD32B1A403600B7582F /* viewControllerAgregar.swift in Sources */,
 				9FFEA6192B16A7B2003C6420 /* Peliculas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

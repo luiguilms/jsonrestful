@@ -83,6 +83,22 @@ class viewControllerBuscar: UIViewController,UITableViewDelegate, UITableViewDat
         alerta.addAction(btnOK)
         present(alerta, animated: true, completion: nil)
     }
+    override func viewWillAppear(_ animated: Bool) {
+        let ruta = "http://localhost:3000/peliculas/"
+        cargarPeliculas(ruta: ruta) {
+            self.tablaPeliculas.reloadData()
+        }
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let pelicula = peliculas[indexPath.row]
+        performSegue(withIdentifier: "segueEditar", sender: pelicula)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segueEditar"{
+            let siguienteVC = segue.destination as! viewControllerAgregar
+            siguienteVC.pelicula = sender as? Peliculas
+        }
+    }
     
 
 
